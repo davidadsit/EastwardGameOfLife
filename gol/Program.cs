@@ -7,15 +7,21 @@ namespace gol
     {
         static void Main(string[] args)
         {
+            ConsoleKeyInfo key;
             var cells = new[]
-                {
-                    Cell.Dead, Cell.Dead, Cell.Dead,
-                    Cell.Dead, Cell.Living, Cell.Dead,
-                    Cell.Dead, Cell.Dead, Cell.Dead,
-                };
+                    {
+                        Cell.Dead, Cell.Dead, Cell.Dead,
+                        Cell.Dead, Cell.Alive, Cell.Dead,
+                        Cell.Dead, Cell.Dead, Cell.Dead,
+                    };
             var world = new World(cells);
-            world.Print(new ConsolePrinter());
-            Console.ReadKey();
+            do
+            {
+                world.Print(new ConsolePrinter());
+                world.Tick();
+                key = Console.ReadKey();
+
+            } while (key.Key != ConsoleKey.Q);
         }
     }
 }

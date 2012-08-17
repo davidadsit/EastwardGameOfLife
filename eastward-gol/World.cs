@@ -1,10 +1,11 @@
 using System;
+using System.Linq;
 
 namespace eastward_gol
 {
     public class World
     {
-        readonly Cell[] cells;
+        Cell[] cells;
 
         public World(Cell[] cells)
         {
@@ -14,14 +15,17 @@ namespace eastward_gol
         public void Print(IPrinter printer)
         {
             var width = (int) Math.Sqrt(cells.Length);
-            for (var i = 0; i < cells.Length;i++ )
+            for (var i = 0; i < cells.Length; i++)
             {
-                printer.PrintCell(cells[i]);
-                if ((i+1) % width == 0)
-                {
-                    printer.PrintNewLine();
-                }
+                printer.PrintCell(i/width, i%width, cells[i]);
             }
+        }
+
+        public World Tick()
+        {
+            cells = cells.Select(x => Cell.Dead).ToArray();
+
+            return this;
         }
     }
 }

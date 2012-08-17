@@ -5,19 +5,16 @@ namespace gol
 {
     internal class ConsolePrinter : IPrinter
     {
-        public void PrintCell(Cell cell)
+        public void PrintCell(int row, int column, Cell cell)
         {
-            cell.Print(this);
+            cell.Print(row, column, this);
         }
 
-        public void PrintString(string text)
+        public void PrintString(int row, int column, string text)
         {
+            Console.CursorLeft = column*2;
+            Console.CursorTop = row;
             Console.Out.Write(" {0}", text);
-        }
-
-        public void PrintNewLine()
-        {
-            Console.Out.WriteLine("");
         }
     }
 }

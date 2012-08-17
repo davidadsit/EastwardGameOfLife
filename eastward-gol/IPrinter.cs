@@ -2,8 +2,7 @@ namespace eastward_gol
 {
     public interface IPrinter
     {
-        void PrintCell(Cell cell);
-        void PrintString(string text);
-        void PrintNewLine();
+        void PrintCell(int row, int column, Cell cell);
+        void PrintString(int row, int column, string text);
     }
 }
