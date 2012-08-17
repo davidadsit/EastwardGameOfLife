@@ -1,0 +1,12 @@
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\eastward-gol-tests.dll
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\eastward-gol-tests.pdb
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\Moq.dll
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\nunit.framework.dll
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\Moq.pdb
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\Moq.xml
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\nunit.framework.xml
+C:\Development\eastward-gol\eastward-gol-tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\eastward-gol\eastward-gol-tests\obj\Debug\eastward-gol-tests.dll
+C:\Development\eastward-gol\eastward-gol-tests\obj\Debug\eastward-gol-tests.pdb
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\eastward-gol.dll
+C:\Development\eastward-gol\eastward-gol-tests\bin\Debug\eastward-gol.pdb

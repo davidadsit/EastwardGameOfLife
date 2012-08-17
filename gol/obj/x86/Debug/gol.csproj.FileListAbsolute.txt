@@ -1,0 +1,7 @@
+C:\Development\eastward-gol\gol\bin\Debug\gol.exe
+C:\Development\eastward-gol\gol\bin\Debug\gol.pdb
+C:\Development\eastward-gol\gol\bin\Debug\eastward-gol.dll
+C:\Development\eastward-gol\gol\bin\Debug\eastward-gol.pdb
+C:\Development\eastward-gol\gol\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\eastward-gol\gol\obj\x86\Debug\gol.exe
+C:\Development\eastward-gol\gol\obj\x86\Debug\gol.pdb

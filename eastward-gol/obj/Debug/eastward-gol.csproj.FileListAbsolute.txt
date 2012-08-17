@@ -1,0 +1,5 @@
+C:\Development\eastward-gol\eastward-gol\bin\Debug\eastward-gol.dll
+C:\Development\eastward-gol\eastward-gol\bin\Debug\eastward-gol.pdb
+C:\Development\eastward-gol\eastward-gol\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\eastward-gol\eastward-gol\obj\Debug\eastward-gol.dll
+C:\Development\eastward-gol\eastward-gol\obj\Debug\eastward-gol.pdb
